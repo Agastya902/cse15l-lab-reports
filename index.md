@@ -8,6 +8,12 @@ Go to the Visual Studio Code website https://code.visualstudio.com/, and follow 
 
 Step 2: Remotely Connecting
 
-Open Terminal and type in the following:  ssh cs15lsp23gv@ieng6.ucsd.edu. Then type in your password (there is no indication while typing) and it should work.
+Open Terminal and type in the following:  ssh cs15lsp23gv@ieng6.ucsd.edu. A prompt will come up allowing you to enter your account password. Now type in your password (there is no indication while typing) and it should work.
 
 ![Image](Screenshot 2023-04-06 at 11.03.14 AM.png)
+
+Step 3: Trying some Commands
+
+Test some commands like cd, ls, pwd, mkdir.
+
+![Image](Screenshot 2023-04-06 at 11.19.57 AM.png)
