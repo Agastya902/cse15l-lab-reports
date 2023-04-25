@@ -51,13 +51,15 @@ class StringServer
     }
 }
 ```
+
+
 **Implementation of /add-message**
-1. /add-message?s=hi
+1. **/add-message?s=hi**
    When the above path is typed after localhost:4003, the StringHandler method is called which further calls the handle method. The handle method is called with the URI as the argument. In the StringHandler class, the program checks if the path has /add-message in it. When /add-message is found, the program creates an array which holds the contents of the String after the "=" sign. 
    
 ![Image](labss1.png)
 
-2. /add-message?s=ronnie
+2. **/add-message?s=ronnie**
    When the above path is typed in after the previous attempt, the handle method in StringHandler with the URI is called again. Now the program checks if the /add-message exists in the path. Then it creates an array which stores the string after the "=" sign. Here it is "ronnie". Now the given string ("ronnie") is printed in a new line because we used "/n" in the previous iteration.
    
 ![Image](labss2.png)   
@@ -83,6 +85,7 @@ I chose the bug in the ```reverseInPlace``` method of the ```ArrayExamples``` cl
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```
+
 **Symptom:**
 ![Image](labss3.png)
 
