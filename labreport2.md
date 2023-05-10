@@ -122,7 +122,7 @@ static void reverseInPlace(int[] arr)
 
 **Explanation of the Bug fix:**
 
-The codeblock above shows the correct version of the Buggy code. In the Debugged version, we use a loop that goes halfway through the array up to the mid point. For each iteration, we swap the element at i with the element at the corresponding position from the end of the array ```(arr.length - i - 1)```. This way we have ensured that each element is swapped only once and the array is correctly reversed. This swapping is done in order to insure that the elements are swapped instead of overwritten. 
+The codeblock above shows the correct version of the Buggy code. In the Debugged version, we use a loop that goes halfway through the array up to the mid point. For each iteration, we swap the element at i with the element at the corresponding position from the end of the array ```(arr.length - i - 1)```. This way we have ensured that each element is swapped only once and the array is correctly reversed. This swapping was done in order to insure that the elements are swapped instead of overwritten. 
 
 ## **Part 3:**
 
