@@ -71,7 +71,8 @@ class StringServer
 I chose the bug in the ```reverseInPlace``` method of the ```ArrayExamples``` class.
 
 **Input that induces failure**
-```@Test
+```
+@Test
   public void testReverseInPlace1() 
   {
     int[] input1 = {0, 1, 2, 3, 4, 5};
