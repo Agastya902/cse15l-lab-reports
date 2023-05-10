@@ -94,15 +94,35 @@ I chose the bug in the ```reverseInPlace``` method of the ```ArrayExamples``` cl
 ![Image](labss3.png)
 
 **Code before Bug fix:**
+```
+static void reverseInPlace(int[] arr) 
+  {
+    for(int i = 0; i < arr.length; i += 1) 
+    {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+The Bug in this code is that it does not actually reverse the array. Instead, it overwrites each element of the array with the corresponding element from the end of the array. This means that when the iteration gets to the halfway point, it overwrites elements that have already been changed. As a result, the final array ends up being the same as the original.
 
-//insert code as a codeblock
+To Debug this code, we need to swap the elements, without overwriting, at opposite ends of the array.
 
 **Code after the Bug fix:**
-
-//insert the fixed code as a code block
+```
+static void reverseInPlace(int[] arr) 
+{
+  for(int i = 0; i < arr.length/2; i++) 
+  {
+    int temp = arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length - i - 1] = temp;
+  }
+}
+```
 
 **Explanation of the Bug fix:**
 
+The codeblock above shows the correct version of the Buggy code. In the Debugged version, we use a loop that goes halfway through the array up to the mid point. For each iteration, we swap the element at i with the element at the corresponding position from the end of the array ```(arr.length - i - 1)```. This way we have ensured that each element is swapped only once and the array is correctly reversed. This swapping is done in order to insure that the elements are swapped instead of overwritten. 
 
 ## **Part 3:**
 
