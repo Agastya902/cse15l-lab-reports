@@ -42,7 +42,7 @@ In the Terminal image above, the ```grep -l -r``` command gives all the director
 
 ***Example 2:*** ```grep -l -r "fire" technical```
 
-![Image](grep -l -r 2.png)
+![Image](grep -l 2.png)
 
 Here we can see that the ```grep -l -r``` command gives all the directories and subdirectories as it did previously. All the files that contain the string "fire" are printed.
 
@@ -57,7 +57,7 @@ In the Terminal screenshot above, we can see that the command goes through all t
 
 ***Example 2:***: ```grep -n -r "high" technical```
 
-![Image](grep -n -r 2.png)
+![Image](grep -n 2.png)
 
 In the image above, we can see that the ```grep -n -r``` command prints the paths and names of all the files that contain the specified string. It also prints the lines and the line numbers where the String "high" is present.
 
