@@ -29,7 +29,7 @@ technical/plos/pmed.0020275.txt:0
 technical/plos/pmed.0020278.txt:0
 ````
 
-In the above image, you can see that ```grep -c -r``` command goes through all th files in the directories of technical, and prints out the name of all the files along with the number of lines in which the searched string "world" appeared.
+In the codeblock above, you can see that ```grep -c -r``` command goes through all th files in the directories of technical, and prints out the name of all the files along with the number of lines in which the searched string "world" appeared.
 
 ***Example 2:*** ```grep -c -r "disaster" technical```
 
@@ -88,7 +88,7 @@ technical/plos/journal.pbio.0020187.txt:        The escape velocity cusp is clos
 technical/plos/journal.pbio.0020307.txt:        discovered because most viral strains escape its neutralising properties. Lentiviruses like
 technical/plos/journal.pbio.0030097.txt:        profits escape from an otherwise self-contained financial cycle to satisfy shareholders or
 ````
-In the image above, the ```grep -r``` command searches the directories and subdirectories of technical. As a result, it prints out the names of the files and the lines in which the specified string "escape" appears. We can see that the searched string is highlighted in red in the terminal.
+In above codeblock, the ```grep -r``` command searches the directories and subdirectories of technical. As a result, it prints out the names of the files and the lines in which the specified string "escape" appears. We can see that the searched string is highlighted in red in the terminal.
 
 ***Example 2:*** ```grep -r "saved" technical```
 ````
@@ -183,7 +183,7 @@ technical/plos/pmed.0020160.txt:82:          defined as prevalent atheroscleroti
 technical/plos/pmed.0020160.txt:187:        atherosclerotic cardiovascular disease.
 technical/plos/pmed.0020160.txt:276:        decline in former smokers simply indicates a prevalent underlying burden of atherosclerotic
 ````
-In the Terminal screenshot above, we can see that the command goes through all the files in the directories and subdirectories of technical for the String "hero". As a result, it prints the paths, names, lines, and line number in the file in which the String "hero" is present.
+In the codeblock above, we can see that the command goes through all the files in the directories and subdirectories of technical for the String "hero". As a result, it prints the paths, names, lines, and line number in the file in which the String "hero" is present.
 
 ***Example 2:***: ```grep -n -r "high" technical```
 ````
@@ -199,5 +199,6 @@ technical/plos/pmed.0020275.txt:22:        high proportion of dementia patients 
 technical/plos/pmed.0020278.txt:23:        injection drug users in Thailand [3] and a multinational trial of over 5,000 high-risk
 technical/plos/pmed.0020278.txt:28:        imperatives dictate that no animal model, even higher primates, gives information
 ````
-In the image above, we can see that the ```grep -n -r``` command prints the paths and names of all the files that contain the specified string. It also prints the lines and the line numbers where the String "high" is present.
+In the codeblock above, we can see that the ```grep -n -r``` command prints the paths and names of all the files that contain the specified string. It also prints the lines and the line numbers where the String "high" is present.
 
+Note: All Terminal outputs are shortened to fit the lab report.
