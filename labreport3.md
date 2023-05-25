@@ -36,7 +36,7 @@ The ```grep -l``` command lists the files that are found to contain the specific
 
 ***Example 1:*** ```grep -l -r "saved" technical```
 
-![Image](grep -l -r.png)
+![Image](grep -l.png)
 
 In the Terminal image above, the ```grep -l -r``` command gives all the directories and subdirectories of technical for "saved". 
 
