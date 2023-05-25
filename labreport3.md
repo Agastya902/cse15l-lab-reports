@@ -51,7 +51,7 @@ The ```grep -n``` command prefixes each line of output with the corresponding li
 
 ***Example 1:*** ```grep -n -r "hero" technical```
 
-![Image](grep -n -r.png)
+![Image](grep -n.png)
 
 In the Terminal screenshot above, we can see that the command goes through all the files in the directories and subdirectories of technical for the String "hero". As a result, it prints the paths, names, lines, and line number in the file in which the String "hero" is present.
 
