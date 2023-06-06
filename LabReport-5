@@ -3,3 +3,20 @@
 ## **Part 1:** Debugging Scenario
 
 ### Student's Edstem post:
+
+![Image](lab5.1.png)
+![Image](lab5.2.png)
+
+## **Response from TA:**
+There is a small bug in your implementation of the AverageWithoutLowest method. Firstly, you need an instance variable that will identify the first appearance of the lowest element. We can achieve this by assigning a boolean variable ```start``` who's initial value is false. Secondly, there is an error in the return statement of the method. The length of the entire array is taken, whereas the occurence of the lowest element should be ignored while taking the length. That is, we should take ```arr.length - 1``` instead of ```arr.length```. The occurence of the lowest element is removed from the calculation by simply subtracting 1 from the length of the array.
+
+
+## **Second Response from Student:**
+Thank you so much! After changing the code using your guidelines, I was able to debug it sucessfully. I full understand why the code was buggy in the first place and also understood the part where we had to neglect the lowest element from the calculation. 
+
+
+## **Final response from TA:**
+
+
+
+## **Part 2:** Reflection
