@@ -16,7 +16,7 @@ Thank you so much! After changing the code using your guidelines, I was able to 
 
 
 ## **Final response from TA:**
-Here is a ![link](https://github.com/ucsd-cse15l-w23/lab3) to the file structure required to sucessfully submit. This is the file before the bug fix: 
+Here is a [link](https://github.com/ucsd-cse15l-w23/lab3) to the file structure required to sucessfully submit. This is the file before the bug fix: 
 <img width="746" alt="Lab5 5" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/4d76b650-51b1-48a8-8427-d8bf56cc6158">
 
 
