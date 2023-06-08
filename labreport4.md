@@ -23,7 +23,7 @@ First, I typed the command ```git clone git@github.com:ucsd-cse15l-sp23/lab7.git
 <img width="594" alt="Screenshot 2023-06-07 at 7 36 32 PM" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/703af0e3-bca5-4c1c-9feb-c1fa375e1904">
 
 ## **Step 3:** Run the tests, demonstrating that they fail
-First, I changed the working directory to lab7. I executed this command: ```cd lab7```. Then, ```ls``` shows the contents of the directory. Now, I pressed <Ctrl + R> and typed <javac> and looked for ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command. Then <Enter> and then pressed <Ctrl + R> and java -> to look for ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.jUnitCore ListExamplesTests``` and then pressed <Enter>. The <Ctrl + R> is used to search through history and javac is used to compile all the files in the current directory. As shown in the screenshot below.
+First, I changed the working directory to lab7. I executed this command: ```cd lab7```. Then, ```ls``` shows the contents of the directory. Now, I pressed <Ctrl + R> and typed <javac> and looked for ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command. Then <Enter> and then pressed <Ctrl + R> and java -> to look for ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.jUnitCore ListExamplesTests ``` and then pressed <Enter>. The <Ctrl + R> is used to search through history and javac is used to compile all the files in the current directory. As shown in the screenshot below.
   
 <img width="963" alt="Screenshot 2023-06-07 at 7 40 07 PM" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/18776c5c-a44e-485c-825d-e0daeba9cde1">
 
@@ -34,7 +34,7 @@ I typed ```nano Li``` and <Tab> to complete it to nano ListExamples and typed <.
 <img width="1119" alt="Screenshot 2023-06-07 at 7 41 53 PM" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/f420397e-e49f-4552-9e66-6a0e7026b893">
 
 ## **Step 5:** Run the tests, demonstrating that they now succeed
-To get back to ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` I pressed <up> 4 times. Then ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples``` <Enter> to run all the tests again 
+To get back to ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` I pressed <up> 4 times. Then ``` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples ``` <Enter> to run all the tests again 
 
 ## **Step 6:** Commit and push the resulting change to your Github account
 I then clicked git add . command to prepare the changes. Then, ```git commit -m "Fixed"``` to commit changes with the message "Fixed". Then i typed ```git push``` command to push all the changes to git hub.
