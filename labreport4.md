@@ -13,6 +13,7 @@ First I typed in the following command: ```ssh cs15lsp23gv@ieng6.ucsd.edu```. He
 
 ## **Step 2:** Clone your fork of the repository from your Github account
 First, I typed the command ```git clone git@github.com:ucsd-cse15l-sp23/lab7.git``` and then i pressed <Enter>. This command downloads all the files from the repository.
+  
 <img width="594" alt="Screenshot 2023-06-07 at 7 36 32 PM" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/703af0e3-bca5-4c1c-9feb-c1fa375e1904">
 
 ## **Step 3:** Run the tests, demonstrating that they fail
