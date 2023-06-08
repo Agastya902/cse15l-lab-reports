@@ -34,7 +34,7 @@ I typed ```nano Li``` and <Tab> to complete it to nano ListExamples and typed <.
 <img width="1119" alt="Screenshot 2023-06-07 at 7 41 53 PM" src="https://github.com/Agastya902/cse15l-lab-reports/assets/123341493/f420397e-e49f-4552-9e66-6a0e7026b893">
 
 ## **Step 5:** Run the tests, demonstrating that they now succeed
-To get back to ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` I pressed <up> 4 times. Then ````javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples````  <Enter> to run all the tests again 
+To get back to ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` I clicked <up>  4 times. Then ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples ```  <Enter> to run all the tests again.
 
 ## **Step 6:** Commit and push the resulting change to your Github account
 I then clicked git add . command to prepare the changes. Then, ```git commit -m "Fixed"``` to commit changes with the message "Fixed". Then i typed ```git push``` command to push all the changes to git hub.
